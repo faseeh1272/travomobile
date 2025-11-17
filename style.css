@@ -312,3 +312,18 @@ span.red{
 }
 
 
+/* card section End  */
+
+section.step-section{
+    width: 100%;
+    text-align: center;
+}
+
+
+div.card img.zero-one{
+    background-color: var(--bg-primary);
+    border-radius: 50%;
+    
+}
+
+ 
