@@ -424,6 +424,72 @@ section.step-section{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-top: 50px;
+    margin-top: 80px;
     text-align: center;
  }
+
+ div.connectivity-content{
+line-height: 30px;
+padding: 30px;
+
+
+}
+
+div.connectivity-card>div.card-body{
+    display: flex;
+    justify-content: center;
+    gap: 1px;    
+
+}
+
+div.connectivity-card>div.card-body>div.card{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding: 20px;
+    box-shadow: none;
+    border: 1px solid rgb(153, 149, 149);
+    border-radius: 18px;
+}
+
+div.card>div.content{
+    width: 70%;
+    text-align: start;
+    padding: 10px 0;
+}
+
+div.Esim-img {
+    
+  min-width: 136px;
+   aspect-ratio: 1;
+   background: var(--bg-primary);
+   display: flex;
+ justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  
+   
+}
+
+div.Esim-img img{
+  width: 30%;
+
+}
+
+div.content>h3.content-title{
+    text-transform: uppercase;
+    color: var(--bg-primary);
+}
+
+div.content>p.connect-content-para{
+
+    color: #363636;
+    background-color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height:24px ;
+    text-align: start;
+    margin-top: 30px;
+    padding: 0 !important;
+}
